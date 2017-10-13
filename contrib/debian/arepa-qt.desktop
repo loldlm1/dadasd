@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Arepa
+Comment=Arepa P2P Cryptocurrency
+Comment[fr]=Arepa, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Arepa, eşten eşe kriptografik sanal para birimi
+Exec=arepa-qt %u
+Terminal=false
+Type=Application
+Icon=arepa128
+MimeType=x-scheme-handler/arepa;
+Categories=Office;Finance;

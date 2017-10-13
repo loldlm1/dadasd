@@ -1,0 +1,11 @@
+[Protocol]
+exec=arepa-qt '%u'
+protocol=arepa
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

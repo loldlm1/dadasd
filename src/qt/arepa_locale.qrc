@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/arepa_bg.qm</file>
+        <file alias="de">locale/arepa_de.qm</file>
+        <file alias="en">locale/arepa_en.qm</file>
+        <file alias="es">locale/arepa_es.qm</file>
+        <file alias="fi">locale/arepa_fi.qm</file>
+        <file alias="fr">locale/arepa_fr.qm</file>
+        <file alias="it">locale/arepa_it.qm</file>
+        <file alias="ja">locale/arepa_ja.qm</file>
+        <file alias="pl">locale/arepa_pl.qm</file>
+        <file alias="pt">locale/arepa_pt.qm</file>
+        <file alias="ru">locale/arepa_ru.qm</file>
+        <file alias="sk">locale/arepa_sk.qm</file>
+        <file alias="sv">locale/arepa_sv.qm</file>
+        <file alias="vi">locale/arepa_vi.qm</file>
+        <file alias="zh_CN">locale/arepa_zh_CN.qm</file>
+        <file alias="zh_TW">locale/arepa_zh_TW.qm</file>
+    </qresource>
+</RCC>

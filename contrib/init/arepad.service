@@ -1,0 +1,22 @@
+[Unit]
+Description=Arepa's distributed currency daemon
+After=network.target
+
+[Service]
+User=arepacore
+Group=arepacore
+
+Type=forking
+PIDFile=/var/lib/arepad/arepad.pid
+ExecStart=/usr/bin/arepad -daemon -pid=/var/lib/arepad/arepad.pid \
+-conf=/etc/arepacore/arepa.conf -datadir=/var/lib/arepad -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
